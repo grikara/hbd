@@ -600,7 +600,16 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  padding-top: 16px;
 }
+
+.avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  padding-bottom: 16px;
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -7668,6 +7677,10 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.highlight {
+  background-color: yellow;
 }
 
 .mb-auto {
